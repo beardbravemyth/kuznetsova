@@ -51,7 +51,7 @@ var tries = 0;
 
 document.getElementById("btn-send3").addEventListener("click", function() {
 
-  if (tries > 100) {
+  if (tries > 20) {
 
     tries = 0;
 
