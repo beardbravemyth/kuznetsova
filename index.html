@@ -12,46 +12,70 @@
 
 <body>
 
-  <div id="ready">
-    <h1>Привет, Катя, твоя задача - пройти этот квест</h1>
-    <button class="button" id="btn-ready">
-      Я готова
-    </button>
-  </div>
+  <div class="container">
 
-  <div id="level1" style="display: none;">
-    <h4>Уровень 1</h4>
-    <h2 id="question1">Самые вкусные бургеры в Москве?</h2>
-    <button class="button-outline">BB & Burgers</button>
-    <button class="button-outline">#FARШ</button>
-    <button class="button-outline" id="btn-send1">Burger Heroes</button>
-    <button class="button-outline">Бизон</button>
-    <button class="button-outline">Burger king</button>
-    <h3 id="alert"><h2>
-  </div>
+    <div class="row">
+      <div class="column">
+        <div id="ready">
+          <h1>Привет, Катя, твоя задача - пройти этот квест</h1>
+          <button class="button" id="btn-ready">
+            Я готова
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div id="level1" style="display: none;">
+          <h4>Уровень 1</h4>
+          <h2 id="question1">Самые вкусные бургеры в Москве?</h2>
+          <button class="button-outline">BB & Burgers</button>
+          <button class="button-outline">#FARШ</button>
+          <button class="button-outline" id="btn-send1">Burger Heroes</button>
+          <button class="button-outline">Бизон</button>
+          <button class="button-outline">Burger king</button>
+          <h3 id="alert">
+            <h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div id="level2" style="display: none;">
+          <h4>Уровень 2</h4>
+          <h2>Тут сложнее, но можно и
+            <div id="question2">дальше</div>
+          </h2>
+          <button class="button-outline">Хочу дальше</button>
+          <button class="button-outline">Хочу дальше, надоел</button>
+          <button class="button-outline">Хочу дальше, пожалуйста</button>
+          <button class="button-outline">FFFFFF</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div id="level3" style="display: none;">
+          <h4>Уровень 3</h4>
+          <h6>Надо рил узнавать, есть табличка там, но можно и в лс</h6>
+          <h2 id="question">во сколько закрывается пг?</h2>
+          <input required placeholder="Сюда ответ" type="text" name="name" value="">
+          <button class="button-outline" id="btn-send3">Думаю, я права</button>
+          <h3 id="alert1">
+            <h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div id="result" style="display: none;">
+          <h1> Поздравляю, ты прошла квест, осталось только написать мне :)</h1>
+          <button class="button" id="OK" name="button"> Хорошо, я согласна</button>
+          <button class="button" id="OK1" name="button"> ты че, тупой</button>
+        </div>
+      </div>
+    </div>
 
-  <div id="level2" style="display: none;">
-    <h4>Уровень 2</h4>
-    <h2>Тут сложнее, но можно и <div id="question2">дальше</div></h2>
-    <button class="button-outline" >Хочу дальше</button>
-    <button class="button-outline" >Хочу дальше, надоел</button>
-    <button class="button-outline" >Хочу дальше, пожалуйста</button>
-    <button class="button-outline" >FFFFFF</button>
-  </div>
-
-  <div id="level3" style="display: none;">
-    <h4>Уровень 3</h4>
-    <h6>Надо рил узнавать, есть табличка там, но можно и в лс</h6>
-    <h2 id="question">во сколько закрывается пг?</h2>
-    <input required  placeholder="Сюда ответ" type="text" name="name" value="">
-    <button class="button-outline" id="btn-send3">Думаю, я права</button>
-    <h3 id="alert1"><h2>
-  </div>
-
-  <div id="result" style="display: none;">
-        <h1> Поздравляю, ты прошла квест, осталось только написать мне :)</h1>
-        <button class="button" id="OK" name="button"> Хорошо, я согласна</button>
-        <button class="button" id="OK1" name="button"> ты че, тупой</button>
   </div>
 
 </body>
